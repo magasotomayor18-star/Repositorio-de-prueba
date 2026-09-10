@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Perfil interactivo de Cristiano Ronaldo: biografía, trayectoria, estadísticas y galería.">
+  <title>Cristiano Ronaldo | Una carrera de leyenda</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Cristiano Ronaldo, inicio">
+        <span class="brand-mark">CR</span>
+        <span><strong>Cristiano</strong><small>Ronaldo</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#biografia">Biografía</a>
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#estadisticas">Estadísticas</a>
+        <a href="#galeria">Galería</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">El trabajo también puede convertirse en arte</p>
+        <h1 id="hero-title">Una carrera<br><em>de leyenda.</em></h1>
+        <p class="hero-intro">De Madeira al mundo: velocidad, ambición y una disciplina extraordinaria convertidas en una historia que todavía se está escribiendo.</p>
+        <a class="button button-primary" href="#trayectoria">Explorar la trayectoria <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-figure">
+        <img class="hero-image" src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?auto=format&fit=crop&w=1200&q=90" alt="Futbolista celebrando en un estadio" fetchpriority="high">
+        <div class="hero-stamp">SIUUU<br><span>07</span></div>
+      </div>
+      <div class="hero-meta">
+        <span>Madeira, Portugal</span><span>1985 — presente</span><span>Delantero</span>
+      </div>
+    </section>
+
+    <section class="section biography" id="biografia" aria-labelledby="bio-title">
+      <div class="section-heading"><p class="eyebrow">01 / El origen</p><h2 id="bio-title">Nacido para<br><em>superarse.</em></h2></div>
+      <div class="bio-content">
+        <p class="lead">Cristiano Ronaldo dos Santos Aveiro nació el 5 de febrero de 1985 en Funchal, Madeira. Lo que comenzó en las calles de una isla atlántica se convirtió en una de las carreras más influyentes del fútbol moderno.</p>
+        <p>Su recorrido combina talento natural y una voluntad casi inagotable de mejorar. Portugal, Inglaterra, España, Italia y Arabia Saudita han sido capítulos de un viaje marcado por títulos, récords y una identidad competitiva única.</p>
+        <div class="quote"><span aria-hidden="true">“</span><p>Tu amor me hace fuerte, tu odio me hace imparable.</p><cite>— Cristiano Ronaldo</cite></div>
+      </div>
+    </section>
+
+    <section class="section journey" id="trayectoria" aria-labelledby="journey-title">
+      <div class="section-heading journey-heading"><p class="eyebrow">02 / El camino</p><h2 id="journey-title">Cinco capítulos.<br><em>Una mentalidad.</em></h2></div>
+      <div class="timeline-controls" role="group" aria-label="Filtrar etapas de la trayectoria">
+        <button class="timeline-filter is-active" type="button" data-stage="all" aria-pressed="true">Toda la historia</button>
+        <button class="timeline-filter" type="button" data-stage="sporting" aria-pressed="false">Sporting</button>
+        <button class="timeline-filter" type="button" data-stage="united" aria-pressed="false">Manchester United</button>
+        <button class="timeline-filter" type="button" data-stage="madrid" aria-pressed="false">Real Madrid</button>
+        <button class="timeline-filter" type="button" data-stage="italy" aria-pressed="false">Juventus</button>
+        <button class="timeline-filter" type="button" data-stage="alnassr" aria-pressed="false">Al-Nassr</button>
+      </div>
+      <p class="sr-only" id="timeline-status" aria-live="polite">Mostrando: Toda la historia (5 etapas).</p>
+      <div class="timeline" aria-live="polite">
+        <article class="timeline-item" data-stage="sporting"><span class="timeline-year">2002</span><div><h3>Sporting CP</h3><p>El debut profesional en Lisboa abre la puerta de Europa. Su desborde llama la atención desde el primer partido.</p></div></article>
+        <article class="timeline-item" data-stage="united"><span class="timeline-year">2003</span><div><h3>Manchester United</h3><p>Sir Alex Ferguson apuesta por su potencial. En Old Trafford aprende a convertir el talento en títulos.</p></div></article>
+        <article class="timeline-item" data-stage="madrid"><span class="timeline-year">2009</span><div><h3>Real Madrid</h3><p>El traspaso más caro de su momento inicia una década dorada, con cuatro Champions League y una colección histórica de goles.</p></div></article>
+        <article class="timeline-item" data-stage="italy"><span class="timeline-year">2018</span><div><h3>Juventus</h3><p>Un nuevo reto en Italia: dos Scudetti y la misma exigencia de competir cada temporada al máximo nivel.</p></div></article>
+        <article class="timeline-item" data-stage="alnassr"><span class="timeline-year">2023</span><div><h3>Al-Nassr</h3><p>Una nueva aventura en Arabia Saudita, donde continúa liderando dentro y fuera del campo.</p></div></article>
+      </div>
+    </section>
+
+    <section class="stats-section" id="estadisticas" aria-labelledby="stats-title">
+      <div class="section-heading"><p class="eyebrow">03 / La huella</p><h2 id="stats-title">Números que<br><em>hablan.</em></h2></div>
+      <div class="stats-grid">
+        <div class="stat"><strong>5</strong><span>Balones de Oro</span></div>
+        <div class="stat"><strong>5</strong><span>Champions League</span></div>
+        <div class="stat"><strong>140</strong><span>Goles en Champions</span></div>
+        <div class="stat"><strong>130+</strong><span>Goles con Portugal</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria" aria-labelledby="gallery-title">
+      <div class="section-heading gallery-heading"><p class="eyebrow">04 / La imagen</p><h2 id="gallery-title">Momentos<br><em>inolvidables.</em></h2><p>Una carrera también se cuenta en gestos: el salto, la celebración, la camiseta y el estadio.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-card gallery-card-large"><img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1000&q=85" alt="Balón de fútbol sobre el césped de un estadio" loading="lazy"><figcaption><span>01</span> El escenario</figcaption></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=800&q=85" alt="Futbolista controlando el balón durante un partido" loading="lazy"><figcaption><span>02</span> La precisión</figcaption></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=85" alt="Jugador de fútbol celebrando una victoria con los brazos alzados" loading="lazy"><figcaption><span>03</span> La celebración</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><a class="brand" href="#inicio"><span class="brand-mark">CR</span><span><strong>Cristiano</strong><small>Ronaldo</small></span></a><p>Una historia de disciplina, ambición y fútbol.</p></div>
+    <div class="footer-links"><a href="#inicio">Volver arriba ↑</a><a href="#biografia">Biografía</a><a href="#galeria">Galería</a></div>
+    <p class="copyright">Página educativa sin afiliación oficial · 2026</p>
+  </footer>
+</body>
+</html>
