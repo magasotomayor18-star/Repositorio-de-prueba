@@ -37,6 +37,7 @@ const failures = [];
 
 try {
   const page = await browser.newPage();
+  await page.route('https://images.unsplash.com/**', (route) => route.abort());
   await page.goto(`http://127.0.0.1:${port}/paginaCristianoRonaldo/index.html`, { waitUntil: 'networkidle' });
 
   const axeSource = await readFile(require.resolve('axe-core/axe.min.js'), 'utf8');
